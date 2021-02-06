@@ -1,4 +1,4 @@
 # ALBO-VQE
-This repository contains the code and examples for the corresponding paper entitled *Foldager, Jonathan, et al. "ALBO-VQE: Combining Active Learning and Bayesian Optimization for Hyperparameter Transfer Learning in Variational Quantum Circuits"* available on arXiv soon.
+This repository contains the code and examples for the corresponding paper entitled *Foldager, Jonathan, et al. "Algorithmic agency can improve quantum machine learning"* currently in review.
 
-ALBO-VQE is a framework combining active learning and bayesian optimization for hyperparameter transfer learning in variational quantum circuits.
+We combine active learning and bayesian optimization (ALBO) to perform algorithmic agency for the variational quantum eigensolver (VQE). The aim is to do hyperparameter transfer learning in variational quantum circuits.
