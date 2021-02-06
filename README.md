@@ -35,6 +35,6 @@ albo.run()
 
 ## Example: Optimizing for the number of QAOA layers in VQE for Ising chain
 Expected loss choosing optimal number of circuit layers:
-<img src="https://github.com/jfold/albo-vqe/blob/main/loss.png" width="100" height="100">
+<img src="https://github.com/jfold/albo-vqe/blob/main/loss.png" width=50%>
 Iteration 4 of BO procedure for number of layers:
-<img src="https://github.com/jfold/albo-vqe/blob/main/BO_layers.png" width="100" height="100">
+<img src="https://github.com/jfold/albo-vqe/blob/main/BO_layers.png" width=50%>
