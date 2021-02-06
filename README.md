@@ -20,12 +20,12 @@ Using Google Colab, the following two lines at the very top of the notebook shou
 ```python
 N_QUBITS    = 5
 THETA       = {"L": {"type":"int",
-                     "constraints":(1,8), # int(N_QUBITS/2)
+                     "constraints":(1,8), 
                      "prior":"exp",
                      "prior_params":1.0}}
 albo = ALBO(N_QUBITS=N_QUBITS,
           THETA=THETA,
-          n_a_epochs=10,
+          n_a_epochs=10, 
           n_b_epochs=3,
           n_c_epochs=100,
           search="AL+BO",
@@ -33,6 +33,4 @@ albo = ALBO(N_QUBITS=N_QUBITS,
 albo.run()
 ```
 
-## Example: N=9, L=5, beta = 1.01, hamiltonian=["ZZ","Z"]
-
-![alt text](https://github.com/jfold/envqt/blob/main/training-history-example.png "Training history")
+## Example: 
