@@ -33,4 +33,5 @@ albo = ALBO(N_QUBITS=N_QUBITS,
 albo.run()
 ```
 
-## Example: 
+## Example: Optimizing for the number of layers in VQE for Ising chain
+![alt text](https://github.com/jfold/albo-vqe/blob/main/loss.png "Loss grid")
